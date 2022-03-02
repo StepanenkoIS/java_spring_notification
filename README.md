@@ -42,7 +42,7 @@ docker run -d --net=mynetwork -p 8083:8083 pushserver
 
 
 # Вход в eurekaserver, где ${ip} - ip компьютера
-http://{ip}/
+http://{ip}:8761/
 
 
 # Отправка сообщений, где ${ip} - ip компьютера
